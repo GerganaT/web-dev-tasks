@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="custom-dropdown-style-link" rel="stylesheet" href="custom-dropdown-flex-style.css">
+    <link rel="stylesheet" href="main-page-style.css">
+    <link rel="stylesheet" href="/css-reset.css">
+    <title>Custom Dropdown</title>
+</head>
+<body>
+    <h1>Custom Dropdown</h1>
+    <div id="select-layout-section">
+        <label for="select-layout">Select layout (only applicable to div dropdown):</label>
+    <select id="select-layout">
+        <option value="flex-layout">Flex</option>
+        <option value="block-layout">Block</option>
+        <option value="inline-block-layout">Inline-Block</option>
+    </select>
+    </div>
+    <div id="dropdown-menus-sections">
+    <div class="menu-section" id="select-option-dropdown-menu-section">
+        <h2>Select Option Dropdown</h2>
+            <img id="system-dropdown-arrow-icon" src="/public/down-arrow-circle-svgrepo-com.svg" alt="down-arrow-icon">
+            <select id="system-dropdown">
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+    </div>
+    <div class="menu-section" id="div-dropdown-menu-section">
+        <h2>Div Dropdown</h2>
+        <div id="div-current-selection-container" tabindex="0">
+            <p id="current-selection-text" class="menu-font">Option 1</p>
+           <img id="div-dropdown-arrow-icon" src="/public/down-arrow-circle-svgrepo-com.svg" alt="down-arrow-icon">
+        </div>
+        <div id="div-dropdown-options-container">
+                <p class="menu-font div-option">Option 1</p>
+                <p class="menu-font div-option">Option 2</p>
+                <p class="menu-font div-option">Option 3</p>
+        </div>
+    </div>
+    </div>
+    <script src="custom-dropdown-logic.js"></script>
+</body>
+</html>

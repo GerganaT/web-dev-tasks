@@ -1,0 +1,32 @@
+
+h1 {
+  margin: 16px;
+  text-align: center;
+}
+
+#projects-section{
+width: 50%; 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 2px solid black;
+border-radius: 10px;
+padding: 10px;
+margin: 0 auto;
+background-color: gray;
+color: white;
+}
+
+#projects-list {
+  display: table;
+  margin: 0 auto;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: orange;
+}

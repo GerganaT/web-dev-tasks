@@ -1,0 +1,71 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: grey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#new-task-entry {
+ padding: 5px;
+ width: 100%;
+ background-color: white;
+ color: black;
+ border: 2px solid white;
+ border-radius: 5px;
+ outline:none; 
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.5; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: black;
+    opacity: 0.5;
+  }
+
+#tasks-list {
+    display: flex;
+    margin: 50px 0 30px 0;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 20px 0 10px;
+}
+
+.task-list-item {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#task-checkbox {
+    accent-color: orange;
+    margin: 0 10px;
+}
+
+#bottom-spacer {
+    height: 20px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#new-task-button {
+    padding: 10px;
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+  }
